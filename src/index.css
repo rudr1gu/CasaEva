@@ -2,14 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-:root{
-    --pink: #F2A0B6 ;
+:root {
+    --pink: #F2A0B6;
     --light-pink: #F2BBC9;
     --blue: #B8D5E3;
     --white: #F2F2F0;
@@ -20,5 +20,27 @@
     font-family: "Delius", serif;
     font-weight: 400;
     font-style: normal;
-  }
-  
+}
+
+.custom-swiper .swiper-button-next,
+.custom-swiper .swiper-button-prev {
+  color: var(--blue) !important; 
+  font-weight: bold;
+  transition: transform 0.3s ease-in-out;
+}
+
+.custom-swiper .swiper-button-next:hover,
+.custom-swiper .swiper-button-prev:hover {
+  transform: scale(1.2); 
+}
+
+.custom-swiper .swiper-pagination-bullet {
+  background-color: var(--blue) !important; 
+  opacity: 0.5;
+}
+
+.custom-swiper .swiper-pagination-bullet-active {
+  background-color: var(--blue) !important;
+  opacity: 1;
+  transform: scale(1.3); 
+}
