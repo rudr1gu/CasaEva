@@ -1,55 +1,29 @@
-import ServiceCard from "./cardservice/CardServices";
+import servicos from "./servicos";
+import background from "../../assets/backgroud.jpg";
+import CardServices from "./cardservice/CardServices";
 
 const ServicesSection = () => {
-    return (
-        <section className="py-20 px-4 bg-rose-50">
-        <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl font-serif text-rose-900 text-center mb-12">Nossos Serviços</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <ServiceCard 
-              title="Corte & Styling"
-              price="A partir de R$ 80"
-              items={[
-                'Corte feminino',
-                'Hidratação',
-                'Escova',
-                'Penteados'
-              ]}
-            />
-            <ServiceCard 
-              title="Coloração"
-              price="A partir de R$ 150"
-              items={[
-                'Coloração natural',
-                'Mechas',
-                'Balayage',
-                'Tonalização'
-              ]}
-            />
-            <ServiceCard 
-              title="Tratamentos"
-              price="A partir de R$ 120"
-              items={[
-                'Hidratação profunda',
-                'Reconstrução',
-                'Botox capilar',
-                'Queratinização'
-              ]}
-            />
-            <ServiceCard 
-              title="Estética"
-              price="A partir de R$ 90"
-              items={[
-                'Design de sobrancelhas',
-                'Limpeza de pele',
-                'Massagem relaxante',
-                'Depilação'
-              ]}
-            />
-          </div>
+  return (
+    <section
+      className="relative py-10 px-4 bg-rose-50 bg-cover bg-center"
+      style={{ backgroundImage: `url(${background})` }}
+    >
+      {/* Overlay para melhorar legibilidade */}
+      <div className="absolute inset-0 bg-rose-100 bg-opacity-80"></div>
+
+      <div className="relative max-w-4xl mx-auto">
+        <h2 className="text-5xl font-madi text-eva-pink text-center mb-12">
+          Nossos Serviços
+        </h2>
+
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          {servicos.map((item, index) => (
+            <CardServices key={index} categoria={item.categoria} servicos={item.servicos} />
+          ))}
         </div>
-      </section>
-    )
-}
+      </div>
+    </section>
+  );
+};
 
 export default ServicesSection;

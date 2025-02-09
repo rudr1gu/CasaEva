@@ -2,7 +2,7 @@
 
 const About = () => {
     return (
-        <section className="py-20 px-6 bg-rose-50" id="sobre">
+        <section className="py-10 px-6 bg-rose-50" id="sobre">
             <div className="max-w-5xl mx-auto text-center">
                 <h2 className="text-5xl font-madi text-eva-pink mb-6">Bem-vinda à Casa Eva</h2>
                 <p className="text-lg text-eva-gray font-belleza leading-relaxed mb-12 text-justify">

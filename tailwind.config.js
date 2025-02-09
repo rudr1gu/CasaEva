@@ -22,6 +22,7 @@ export default {
           black: '#1C1C1C',
           gray: '#616D69',
           lightgray: '#A6A6A6',
+          blue: '#B8D5E3',
         },
       },
     },
