@@ -9,7 +9,11 @@ const About = () => {
                 <p className="text-lg text-rose-700 delius-font leading-relaxed mb-12 text-justify">
                     A Casa Eva é um salão especializado em cuidados para cabelos crespos e cacheados,
                     oferecendo ainda produção completa para eventos como casamentos e formaturas,
-                    com maquiagem e penteados personalizados. Contamos com serviços de embelezamento do olhar, incluindo extensão de cílios, micropigmentação, design de sobrancelhas com henna, lash lifting e brow lamination. Nossas terapias integrativas e tratamentos estéticos abrangem reiki, acupuntura, massagens, limpeza de pele e protocolos de emagrecimento. Oferecemos também manicure, pedicure, alongamento de unhas e spa dos pés. Agende seu horário e experimente uma experiência única de beleza e bem-estar!
+                    com maquiagem e penteados personalizados. Contamos com serviços de embelezamento do olhar,
+                    incluindo extensão de cílios, micropigmentação, design de sobrancelhas com henna,
+                    lash lifting e brow lamination. Nossas terapias integrativas e tratamentos estéticos abrangem reiki,
+                    acupuntura, massagens, limpeza de pele e protocolos de emagrecimento. Oferecemos também manicure, pedicure,
+                    alongamento de unhas e spa dos pés. Agende seu horário e experimente uma experiência única de beleza e bem-estar!
                 </p>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                     <ServiceHighlight

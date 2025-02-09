@@ -5,6 +5,16 @@ export default {
     extend: {
       fontFamily: {
         'serif': ['Playfair Display', 'serif'],
+        'delius': ['Delius', 'cursive'],
+      },
+    },
+    colors: {
+      'eva' : {
+      pink: '#F2A0B6',
+      lightpink: '#F2BBC9',
+      blue: '#B8D5E3',
+      white: '#F2F2F0',
+      yellow: '#F2CDA0',
       },
     },
   },
