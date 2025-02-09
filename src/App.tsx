@@ -5,56 +5,6 @@ function App() {
   return (
     <div className="min-h-screen bg-rose-50">
      
-
-      {/* Serviços Section */}
-      <section className="py-20 px-4 bg-rose-50">
-        <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl font-serif text-rose-900 text-center mb-12">Nossos Serviços</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <ServiceCard 
-              title="Corte & Styling"
-              price="A partir de R$ 80"
-              items={[
-                'Corte feminino',
-                'Hidratação',
-                'Escova',
-                'Penteados'
-              ]}
-            />
-            <ServiceCard 
-              title="Coloração"
-              price="A partir de R$ 150"
-              items={[
-                'Coloração natural',
-                'Mechas',
-                'Balayage',
-                'Tonalização'
-              ]}
-            />
-            <ServiceCard 
-              title="Tratamentos"
-              price="A partir de R$ 120"
-              items={[
-                'Hidratação profunda',
-                'Reconstrução',
-                'Botox capilar',
-                'Queratinização'
-              ]}
-            />
-            <ServiceCard 
-              title="Estética"
-              price="A partir de R$ 90"
-              items={[
-                'Design de sobrancelhas',
-                'Limpeza de pele',
-                'Massagem relaxante',
-                'Depilação'
-              ]}
-            />
-          </div>
-        </div>
-      </section>
-
       {/* Galeria Section */}
       <section className="py-20 px-4 bg-white">
         <div className="max-w-6xl mx-auto">
@@ -136,25 +86,6 @@ function App() {
           <p>© 2024 Casa Eva - Salão de Beleza. Todos os direitos reservados.</p>
         </div>
       </footer>
-    </div>
-  );
-}
-
-
-
-function ServiceCard({ title, price, items }) {
-  return (
-    <div className="p-6 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow">
-      <h3 className="text-xl font-serif text-rose-900 mb-2">{title}</h3>
-      <p className="text-rose-700 font-medium mb-4">{price}</p>
-      <ul className="space-y-2">
-        {items.map((item, index) => (
-          <li key={index} className="text-rose-600 flex items-center gap-2">
-            <Scissors className="w-4 h-4" />
-            {item}
-          </li>
-        ))}
-      </ul>
     </div>
   );
 }
