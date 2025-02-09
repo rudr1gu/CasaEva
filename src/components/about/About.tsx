@@ -1,12 +1,11 @@
-import { Clock, Heart, Scissors } from "lucide-react";
-import ServiceHighlight from "./cardservicehighlight/ServiceHighlight";
+
 
 const About = () => {
     return (
-        <section className="py-20 px-4 bg-rose-50" id="sobre">
-            <div className="max-w-4xl mx-auto text-center">
-                <h2 className="text-5xl font-madi text-rose-950 mb-8">Bem-vinda à Casa Eva</h2>
-                <p className="text-lg text-gray-900 font-belleza leading-relaxed mb-12 text-justify">
+        <section className="py-20 px-6 bg-rose-50" id="sobre">
+            <div className="max-w-5xl mx-auto text-center">
+                <h2 className="text-6xl font-madi text-eva-pink mb-6">Bem-vinda à Casa Eva</h2>
+                <p className="text-lg text-eva-gray font-belleza leading-relaxed mb-12 text-justify">
                     A Casa Eva é um salão especializado em cuidados para cabelos crespos e cacheados,
                     oferecendo ainda produção completa para eventos como casamentos e formaturas,
                     com maquiagem e penteados personalizados. Contamos com serviços de embelezamento do olhar,
@@ -15,23 +14,6 @@ const About = () => {
                     acupuntura, massagens, limpeza de pele e protocolos de emagrecimento. Oferecemos também manicure, pedicure,
                     alongamento de unhas e spa dos pés. Agende seu horário e experimente uma experiência única de beleza e bem-estar!
                 </p>
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-                    <ServiceHighlight
-                        icon={<Scissors className="w-8 h-8 text-rose-700" />}
-                        title="Serviços Completos"
-                        description="Cortes, coloração, tratamentos capilares e muito mais"
-                    />
-                    <ServiceHighlight
-                        icon={<Heart className="w-8 h-8 text-rose-700" />}
-                        title="Produtos Naturais"
-                        description="Utilizamos produtos orgânicos e veganos de alta qualidade"
-                    />
-                    <ServiceHighlight
-                        icon={<Clock className="w-8 h-8 text-rose-700" />}
-                        title="Horário Flexível"
-                        description="Atendimento de segunda a sábado, das 9h às 20h"
-                    />
-                </div>
             </div>
         </section>
     );
