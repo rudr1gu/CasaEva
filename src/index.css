@@ -15,3 +15,11 @@
     --white: #F2F2F0;
     --yellow: #F2CDA0;
 }
+
+
+.delius-font {
+    font-family: "Delius", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
