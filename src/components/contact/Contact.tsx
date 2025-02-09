@@ -12,15 +12,15 @@ const Contact = () => {
                         <div className="space-y-4">
                             <ContactInfo
                                 icon={<Phone className="w-5 h-5 text-rose-700" />}
-                                info="(11) 99999-9999"
+                                info="(11) 97956-1872"
                             />
                             <ContactInfo
                                 icon={<MapPin className="w-5 h-5 text-rose-700" />}
-                                info="Rua das Flores, 123 - Jardim Botânico"
+                                info=" Rua Guaraitá, 96 - Vila Curuçá Velha, São Paulo - SP, 08030-310"
                             />
                             <ContactInfo
                                 icon={<Clock className="w-5 h-5 text-rose-700" />}
-                                info="Segunda a Sábado: 9h às 20h"
+                                info="Terça-feira a Sexta: 10h às 18:30h, Sábado: 10h às 19h"
                             />
                         </div>
                         <div className="mt-6 flex gap-4">
@@ -36,15 +36,19 @@ const Contact = () => {
                         <h3 className="text-xl font-serif text-rose-900 mb-4">Horário de Funcionamento</h3>
                         <div className="space-y-2">
                             <p className="flex justify-between text-rose-700">
-                                <span>Segunda a Sexta</span>
-                                <span>9h - 20h</span>
+                                <span>Terça a Sexta</span>
+                                <span>10h - 18:30h</span>
                             </p>
                             <p className="flex justify-between text-rose-700">
                                 <span>Sábado</span>
-                                <span>9h - 18h</span>
+                                <span>10h - 19h</span>
                             </p>
                             <p className="flex justify-between text-rose-700">
                                 <span>Domingo</span>
+                                <span>Fechado</span>
+                            </p>
+                            <p className="flex justify-between text-rose-700">
+                                <span>Segunda</span>
                                 <span>Fechado</span>
                             </p>
                         </div>
