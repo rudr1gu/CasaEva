@@ -5,16 +5,23 @@ export default {
     extend: {
       fontFamily: {
         'serif': ['Playfair Display', 'serif'],
-        'delius': ['Delius', 'cursive'],
+        'sans': ['Poppins', 'sans-serif'],
+        'monsieur':["Monsieur La Doulaise", 'serif'],
+        'belleza':["Belleza", 'serif'],
+        'madi':['Ms Madi' , 'sans-serif'],
+
       },
       colors: {
         'eva': {
-          pink: '#F2A0B6',
-          lightpink: '#F2BBC9',
-          blue: '#B8D5E3',
+          pink: '#DC0D51',
+          lightpink: '#EF7B8E',
+          lightgreen: '#B6E2D3',
+          lightyellow: '#FEECAA',
           white: '#F2F2F0',
           yellow: '#F2CDA0',
           black: '#1C1C1C',
+          gray: '#616D69',
+          lightgray: '#A6A6A6',
         },
       },
     },

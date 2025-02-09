@@ -17,7 +17,7 @@ const Home = () => {
                 <img src={logo} alt="logo da casa eva" className="h-1/3 w-1/3" />
                 <a
                     href="#agendamento"
-                    className="inline-flex items-center gap-2 bg-rose-700 text-white px-8 py-3 rounded-full font-medium hover:bg-rose-800 transition-colors"
+                    className="inline-flex items-center gap-2 bg-eva-lightpink text-white px-8 py-3 rounded-full font-medium hover:bg-eva-pink transition-colors"
                 >
                     <Calendar size={20} />
                     Agende seu Horário
