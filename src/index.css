@@ -7,3 +7,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root{
+    --pink: #F2A0B6 ;
+    --light-pink: #F2BBC9;
+    --blue: #B8D5E3;
+    --white: #F2F2F0;
+    --yellow: #F2CDA0;
+}
