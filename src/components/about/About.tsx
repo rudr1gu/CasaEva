@@ -5,8 +5,8 @@ const About = () => {
     return (
         <section className="py-20 px-4 bg-white">
             <div className="max-w-4xl mx-auto text-center">
-                <h2 className="text-3xl delius-font text-rose-900 mb-8">Bem-vinda à Casa Eva</h2>
-                <p className="text-lg text-rose-700 delius-font leading-relaxed mb-12 text-justify">
+                <h2 className="text-3xl font-delius text-rose-900 mb-8">Bem-vinda à Casa Eva</h2>
+                <p className="text-lg text-gray-900 delius-font leading-relaxed mb-12 text-justify">
                     A Casa Eva é um salão especializado em cuidados para cabelos crespos e cacheados,
                     oferecendo ainda produção completa para eventos como casamentos e formaturas,
                     com maquiagem e penteados personalizados. Contamos com serviços de embelezamento do olhar,
