@@ -5,7 +5,7 @@ interface ServiceCardProps {
 
 const ServiceCard = ({ categoria, servicos }: ServiceCardProps) => {
     return (
-        <div className="relative p-6 border  rounded-lg shadow-md hover:shadow-lg transition-shadow overflow-hidden">
+        <div className="relative p-6 border  rounded-lg shadow-md hover:shadow-lg transition-shadow overflow-hidden h-full">
           <div className="absolute inset-0 bg-rose-50 opacity-70"></div>
           <div className="relative z-10">
             <h3 className="text-4xl w-full text-center font-madi text-eva-black mb-4 border-b-2 border-eva-lightgreen pb-2">

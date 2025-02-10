@@ -13,13 +13,25 @@ const App = () => {
         <Navbar />
       </header>
       <main className="min-h-screen bg-rose-50">
-        <Home />
-        <About />
-        <ServicesSection />
-        <Gallery />
-        <Contact />
-        <Footer />
+        <section id="inicio">
+          <Home />
+        </section>
+        <section id="sobre">
+          <About />
+        </section>
+        <section id="servicos">
+          <ServicesSection />
+        </section>
+        <section id="trabalhos">
+          <Gallery />
+        </section>
+        <section id="contato">
+          <Contact />
+        </section>
       </main>
+      <footer>
+        <Footer />
+      </footer>
     </>
   );
 }

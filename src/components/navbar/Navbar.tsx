@@ -36,7 +36,7 @@ const Navbar = () => {
         className={`text-2xl font-bold flex items-center cursor-pointer gap-4 transition-all duration-300 ${
           isScrolled ? "text-white" : "text-eva-pink"
         }`}
-        onClick={() => scrollToSection("home")}
+        onClick={() => scrollToSection("inicio")}
       >
         <span className="font-madi text-4xl">Casa Eva</span>
         <GiButterflyFlower />
@@ -53,10 +53,10 @@ const Navbar = () => {
       >
         {[
           { id: "inicio", icon: <FaHome />, label: "Início" },
-          { id: "Sobre", icon: <FaUser />, label: "Sobre" },
-          { id: "Serviços", icon: <GiLipstick />, label: "Serviços" },
-          { id: "Trabalhos", icon: <GrGallery />, label: "Trabalhos" },
-          { id: "Contato", icon: <FaEnvelope />, label: "Contato" },
+          { id: "sobre", icon: <FaUser />, label: "Sobre" },
+          { id: "servicos", icon: <GiLipstick />, label: "Serviços" },
+          { id: "trabalhos", icon: <GrGallery />, label: "Trabalhos" },
+          { id: "contato", icon: <FaEnvelope />, label: "Contato" },
         ].map(({ id, icon, label }) => (
           <button
             key={id}
