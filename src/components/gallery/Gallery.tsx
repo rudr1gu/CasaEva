@@ -14,7 +14,7 @@ const Gallery = () => {
   return (
     <section className="py-20 px-4 bg-white">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-3xl font-serif text-rose-900 text-center mb-12">Nosso Trabalho</h2>
+        <h2 className="text-5xl font-madi text-rose-900 text-center mb-12">Nosso Trabalho</h2>
         
         <Swiper
           modules={[Navigation, Pagination, Autoplay]}
