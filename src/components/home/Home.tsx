@@ -20,7 +20,7 @@ const Home = () => {
                     <a href="https://client.tuaagenda.com/c/CasaEvaCB" target="_blank" className="w-10 h-10 flex items-center justify-center rounded-full bg-eva-lightpink hover:bg-eva-pink transition">
                         <FaCalendar className="text-white text-lg" />
                     </a>
-                    <a href="https://linkedin.com/in/rudr1gu" target="_blank" className="w-10 h-10 flex items-center justify-center rounded-full bg-eva-lightpink hover:bg-eva-pink transition">
+                    <a href="https://www.whatsapp.com/catalog/5511979561872/?app_absent=0" target="_blank" className="w-10 h-10 flex items-center justify-center rounded-full bg-eva-lightpink hover:bg-eva-pink transition">
                         <FaWhatsapp className="text-white text-lg" />
                     </a>
                     <a href="https://www.instagram.com/casaeva.beauty" target="_blank" className="w-10 h-10 flex items-center justify-center rounded-full bg-eva-lightpink hover:bg-eva-pink transition">
