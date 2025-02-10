@@ -1,5 +1,4 @@
-import { Calendar, Clock
-    , MapPin, Phone } from "lucide-react";
+import { Calendar, Clock, MapPin, Phone } from "lucide-react";
 import ContactInfo from "./contactinfo/ContactInfo";
 import { FaCalendar, FaInstagram, FaWhatsapp } from "react-icons/fa";
 
